@@ -1,0 +1,32 @@
+.profile-pic {
+  width: 40px;
+}
+.name {
+  color: #4f46e5;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.bio {
+  color: #475569;
+  font-family: roboto;
+
+  font-size: 12px;
+  margin-top: 20px;
+}
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  max-width: 300px;
+  border-bottom-right-radius: 10px;
+}
+.retry-btn {
+  background-color: #4f46e5;
+  padding: 10px;
+  border-width: 0px;
+  color: white;
+  font-family: roboto;
+}

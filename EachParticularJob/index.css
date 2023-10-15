@@ -1,0 +1,159 @@
+.each-particular-container {
+  background-color: black;
+}
+.each-main-container {
+  background-color: #272727;
+
+  margin: 10px;
+  padding: 13px;
+  border-radius: 10px;
+}
+.website-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.visit {
+  text-decoration: none;
+  color: #6366f1;
+}
+.each-job-des {
+  line-height: 28px;
+  color: white;
+}
+.skills {
+  color: white;
+  font-family: roboto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.each-skill-image {
+  width: 40px;
+}
+.skill-name {
+  color: white;
+  font-family: roboto;
+  margin-left: 10px;
+}
+.skill-li {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin-right: 40px;
+}
+.skill-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.company-text {
+  color: white;
+  font-family: roboto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.company-des {
+  color: white;
+  font-family: roboto;
+  line-height: 25px;
+  font-size: 14px;
+}
+.each-company-image {
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.similar {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: roboto;
+  padding: 10px;
+}
+.similar-container {
+  background-color: #272727;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10px;
+}
+.result-each-container {
+  padding: 40px;
+}
+.loader-display-container {
+  height: 100vh;
+  background-color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .each-main-container {
+    padding: 30px;
+    margin-top: 30px;
+  }
+  .des-text {
+    font-size: 25px;
+  }
+  .company-image {
+    width: 70px;
+  }
+  .company-heading {
+    font-size: 22px;
+  }
+  .star-text {
+    font-size: 14px;
+  }
+  .location-text {
+    font-size: 14px;
+  }
+  .package {
+    font-size: 18px;
+  }
+  .des-bio {
+    max-width: 800px;
+    font-size: 16px;
+    color: #f8fafc;
+  }
+  .skills {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .each-skill-image {
+    width: 60px;
+  }
+  .skill-name {
+    font-size: 18px;
+  }
+  .company-text {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: roboto;
+  }
+  .company-des {
+    max-width: 800px;
+    font-size: 16px;
+    color: #f8fafc;
+  }
+  .company-container {
+    display: flex;
+  }
+  .each-company-image {
+    width: 400px;
+  }
+  .each-similar-ul-class {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .similar-container {
+    max-width: 400px;
+  }
+  .similar-heading {
+    font-size: 17px;
+  }
+  .similar-des {
+    font-size: 18px;
+  }
+  .similar-bio {
+    font-size: 13px;
+  }
+}

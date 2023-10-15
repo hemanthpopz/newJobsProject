@@ -1,0 +1,80 @@
+.company-image {
+  width: 40px;
+  margin: 15px;
+}
+.company-heading {
+  color: white;
+  font-size: 12px;
+}
+.star {
+  color: #fbbf24;
+  font-size: 15px;
+  margin-right: 6px;
+}
+.star-text {
+  color: white;
+  font-family: roboto;
+  font-size: 10px;
+  font-weight: bold;
+}
+.company-logo-container {
+  display: flex;
+  align-items: center;
+}
+.star-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.each-job-container {
+  background-color: #121212;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.location {
+  color: white;
+  margin-right: 10px;
+}
+.location-text {
+  color: #cbd5e1;
+  font-family: roboto;
+  font-size: 12px;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.location-employment-container {
+  display: flex;
+  align-items: center;
+}
+.package {
+  color: white;
+  font-weight: bold;
+  font-family: roboto;
+  font-size: 12px;
+}
+.detail-container {
+  display: flex;
+  justify-content: space-between;
+}
+.des-text {
+  color: white;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.des-bio {
+  margin-top: 5px;
+  color: #cbd5e1;
+  font-family: roboto;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.each-link {
+  text-decoration: none;
+}

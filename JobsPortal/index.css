@@ -1,0 +1,137 @@
+.jobs-container {
+  background-color: black;
+}
+
+.main-content-container {
+  padding: 10px;
+}
+.search-container {
+  display: flex;
+  border: 1px solid #475569;
+  justify-content: space-between;
+}
+.search-icon {
+  color: white;
+  cursor: pointer;
+}
+.icon-container {
+  background-color: #475569;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 15px 2px 15px;
+}
+.profile-input {
+  outline: none;
+  border-width: 0px;
+  font-family: roboto;
+}
+.jobs-form {
+  display: flex;
+  align-items: center;
+}
+.main-search-container {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+label {
+  font-family: roboto;
+  font-size: 10px;
+  margin-left: 10px;
+}
+.employment-container {
+  padding: 10px;
+}
+.employment-text {
+  color: white;
+  font-family: roboto;
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+.each-job-ul {
+  list-style: none;
+}
+.lg-search-container {
+  display: none;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.no-jobs-image {
+  width: 50%;
+  margin-top: 30px;
+}
+.no-jobs-heading {
+  font-family: roboto;
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+}
+.no-jobs-des {
+  color: #cbd5e1;
+  font-family: roboto;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.no-jobs-container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+}
+.failed-view-image {
+  width: 30%;
+}
+.failed-view-heading {
+  color: white;
+  font-family: roboto;
+  font-size: 20px;
+}
+.failed-des {
+  color: #cbd5e1;
+  font-family: roboto;
+  font-size: 18px;
+}
+.failed-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .main-jobs-container {
+    display: flex;
+  }
+  label {
+    font-size: 15px;
+    font-family: roboto;
+  }
+  .first-preference-container {
+    margin-right: 25px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .main-search-container {
+    display: none;
+  }
+  .employment-text {
+    font-size: 20px;
+  }
+  .second-preference-container {
+    max-width: 800px;
+  }
+  .lg-search-container {
+    display: block;
+
+    max-width: 500px;
+  }
+}
